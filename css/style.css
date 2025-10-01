@@ -7,14 +7,14 @@
 /*--------------direct tag----------------------*/
 
 body{
-    background-color: #222222;
+    /* background-color: #222222; */
     font-family: sans-serif;
 }
 
 header{
-    background-color: #add8e6;
-    min-height: 100px;
-    padding-bottom: 5px;
+    background-color: #3160E0;
+    color: #ffffff;
+    padding-bottom: 2px;
 }
 
 footer{
@@ -25,14 +25,21 @@ footer{
 }
 
 /*------------colors-----------*/
-.bg_white{
-    background-color: #ffffff;
-}
+/* .bg_white{ 
+    background-color: #ffffff; 
+ } */
 .bg_grey{
     background-color: #D3D3D3;
 }
 .bg_blue{
-    background-color: #00008B;
+    
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width:auto;
+    height:auto;
+    
 }
 .bg_gold{
     background-color: #daa520;
@@ -59,6 +66,7 @@ footer{
     background-color: #20B2AA;
 }
 
+
 /*---------------dashed border---------------*/
 
 .bg_gold,.bg_green,.bg_indigo,.bg_dark_pink,.bg_pink,.bg_pinky,.bg_salmon{
@@ -71,8 +79,7 @@ footer{
 
 
 .boxed_header{
-    max-width: 900px;
-    min-height: 100px;
+    max-width: 80%;
     margin: 0 auto;
     padding-top: 35px;
 
@@ -80,11 +87,25 @@ footer{
 
 .flex_container{
     display: flex;
-    justify-content: center;
+    /* column-gap: 2%; */
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     width: 100%;
 }
+.flex_container_text{
+    padding-top: 10em;
+    padding-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    row-gap: 2em;
+}
+
+
 
 .logo{
     padding: 10px;
@@ -97,22 +118,19 @@ footer{
 }
 
 .login{
+    align-self: flex-end center;
     padding: 10px;
     width: 20%;
 }
 
 .boxed_section{
-    max-width: 900px;
-    min-height: 500px;
+    max-width: 60%;
+   
     margin: 0 auto;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-.big_box1{
-    min-height: 400px;
-    min-width: 700px;
-}
 .col_70{
     min-height: 400px;
     width: 70%;
@@ -123,7 +141,7 @@ footer{
 }
 .square{
     min-height: 900px;
-    min-width: 900px;
+    width:100%;
 }
 
 
@@ -159,4 +177,29 @@ footer{
 .f_buttons{
     padding: 10px;
     min-width: 90px;
+}
+
+.button{
+    border-radius: 1.5em;
+    padding: 1em 3em;
+    border:  1px;
+    font-weight: 700;
+}
+
+.white_button{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.gray_button{
+    background-color: #23272A;
+    color: #ffffff;
+}
+.lilla_button{
+    background-color: #8EA1E2;
+    color: #ffffff;
+}
+.starred_box{
+    background-image: url("../img/stars.svg");
+    /* background-size:cover; */
+
 }
