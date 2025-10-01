@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------direct tag----------------------*/
+
+body{
+    background-color: #222222;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #add8e6;
+    min-height: 100px;
+    padding-bottom: 5px;
+}
+
+footer{
+    padding-top:10px;
+    min-height: 100px;
+    background-color: #23272A;
+
+}
+
+/*------------colors-----------*/
+.bg_white{
+    background-color: #ffffff;
+}
+.bg_grey{
+    background-color: #D3D3D3;
+}
+.bg_blue{
+    background-color: #00008B;
+}
+.bg_gold{
+    background-color: #daa520;
+}
+.bg_dark_pink{
+    background-color: #FFC0CB;
+}
+.bg_pink{
+    background-color: #EE82EE;
+}
+.bg_indigo{
+    background-color: #1E90FF;
+}
+.bg_green{
+    background-color: #228B22;
+}
+.bg_salmon{
+    background-color: #F08080;
+}
+.bg_pinky{
+    background-color: #FFB6C1;
+}
+.bg_dark_aqua{
+    background-color: #20B2AA;
+}
+
+/*---------------dashed border---------------*/
+
+.bg_gold,.bg_green,.bg_indigo,.bg_dark_pink,.bg_pink,.bg_pinky,.bg_salmon{
+    border: dashed #000000;
+}
+
+.bg_dark_aqua{
+    border: dashed #ffffff;
+}
+
+
+.boxed_header{
+    max-width: 900px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding-top: 35px;
+
+}
+
+.flex_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.logo{
+    padding: 10px;
+    width: 20%;
+}
+
+.link{
+    padding: 10px;
+    width: 60%;
+}
+
+.login{
+    padding: 10px;
+    width: 20%;
+}
+
+.boxed_section{
+    max-width: 900px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.big_box1{
+    min-height: 400px;
+    min-width: 700px;
+}
+.col_70{
+    min-height: 400px;
+    width: 70%;
+}
+.col_30{
+    min-height: 400px;
+    width: 30%;
+}
+.square{
+    min-height: 900px;
+    min-width: 900px;
+}
+
+
+
+.col_40{
+    min-height: 400px;
+    width: 40%;
+}
+.col_60{
+    height: 100%;
+    
+}
+.footer_mini_section{
+    min-height: 400px;
+    width: 25%;
+}
+
+.flex_footer{
+    background-color: #7FFFD4;
+    padding-top: 15px;
+    max-width: 900px;
+    min-height: 60px;
+    margin: 0 auto;
+    padding: 21px 0px;
+    justify-content: space-between;
+}
+.spacing_row{
+    border-top: solid 2px #7FFFD4;
+    padding-bottom: 20px;
+}
+
+
+.f_buttons{
+    padding: 10px;
+    min-width: 90px;
+}
